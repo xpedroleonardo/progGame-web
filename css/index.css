@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+.darkDefault {
+    color: #212121 !important;
+}
+
+.btn-flat {
+    transition: 0.2s;
+}
+
+.btnBlock {
+    width: 100%;
+}
+
+.btnDefault {
+    text-transform: inherit;
+    color: #fff;
+    border: 0.5px solid #fff;
+}
+
+.btnDefault:hover {
+    background-color: #fff;
+    color: #212121;
+}
+
+.btnDefaultDark {
+    text-transform: inherit;
+    color: #212121;
+    border: 0.5px solid #212121;
+    transition: 0.2s;
+    background: transparent;
+}
+
+.btnDefaultDark:hover {
+    background-color: #212121;
+    color: #fff !important;
+}
+
+.btnText {
+    text-transform: inherit;
+    color: #fff;
+}
+
+.btnText:hover {
+    background: #fff;
+    color: #212121;
+}
+
+.btnTextDark {
+    text-transform: inherit;
+    color: #212121;
+}
+
+.btnTextDark:hover {
+    background: #fff;
+    color: #212121;
+}
+
+.slides {
+    background-color: #fff !important;
+}
+
+.cardPostagem {
+    margin: 35px 0;
+}
+
+.dropdown-content {
+    z-index: 100;
+}
+
+.sectionError {
+    width: 100vw;
+    height: 100vh;
+    background: url(../assets/404.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* css da pagina de cadastro da postagem */
+
+.imagePost {
+    min-height: 240px;
+}
+
+.file-path-wrapper {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.icon-user {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 6px !important;
+}
+
+.dropdown-content {
+    width: 120px !important;
+}
+
+.tox-editor-container {
+    height: 900px !important;
+}
+
+.botao-cadastro{
+    margin-right: 1500px !important;
+}
+
+
+/* css da pagina de perfil */
+
+.imageProfile {
+    height: 374px;
+    width: 374px;
+}
+
+.perfilInfo {
+    padding: 50px !important;
+    border-radius: 4px;
+}
+
+.descFoto {
+    visibility: hidden;
+    width: 0;
+}
+
+.modal {
+    width: 500px !important;
+}
+
+
+/* css do menu */
+
+.dividerVert {
+    height: 50px;
+    width: 2px;
+    background-color: #fff;
+    margin: 6px 20px;
+}
+
+
+/* css da pagina de listagem de postagens */
+
+.card-title {
+    font-size: 35px !important;
+}
+
+
+/* css do feed */
+
+.containerMargin {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+/* css do feed do adm */
+
+.tabs .tab a {
+    color: #212121;
+}
+
+.tabs .tab a:hover {
+    background-color: rgba(31, 31, 31, 0.1);
+    color: #212121;
+}
+
+.tabs .tab a.active {
+    background-color: rgba(31, 31, 31, 0.1);
+    color: #212121;
+}
+
+.tabs .indicator {
+    background-color: #212121;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+    background-color: rgba(31, 31, 31, 0.1) !important;
+    outline: none;
+}
+
+
+/* css da pagina de login */
+
+.sectionLogin {
+    width: 100vw;
+    height: 100vh;
+    background: url(../assets/imagem4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.formLogin {
+    padding: 50px !important;
+}
+
+
+/* css da pagina de cadastro */
+
+.cadastro {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../assets/imagem6.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.divForms {
+    background-color: #212121 !important;
+    padding: 50px !important;
+    overflow: auto;
+}
+
+.iconUsersLogin {
+    font-size: 130px;
+    color: #fff;
+}
+
+.sectionRollForm {
+    color: #039be5 !important;
+    text-transform: inherit !important;
+}
+
+.sectionRollForm:hover {
+    text-decoration: underline;
+}
+
+.btnCadastro {
+    width: 100%;
+}
+
+.inputCadastro {
+    color: #fff !important;
+}
+
+.inputCadastro::placeholder {
+    color: #fff !important;
+}
+
+.inputCadastro:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+.iconVerSenha {
+    margin-right: 15px;
+    position: relative;
+    margin-top: -40px !important;
+    z-index: 5;
+    cursor: pointer;
+}
+
+
+/* css da pagina de ver postagem */
+
+.materialize-textarea {
+    color: #000 !important;
+}
+
+.materialize-textarea::placeholder {
+    color: #000 !important;
+}
+
+.materialize-textarea:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
